@@ -1390,7 +1390,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply(script.I_CUDNT.format(reqstr.mention))
-        await asyncio.sleep(600)
+        await asyncio.sleep(40)
         await k.delete()
         return
     movielist = []
@@ -1405,7 +1405,7 @@ async def advantage_spell_chok(client, msg):
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(600)
+        await asyncio.sleep(40)
         await k.delete()
         return
     movielist += [movie.get('title') for movie in movies]
