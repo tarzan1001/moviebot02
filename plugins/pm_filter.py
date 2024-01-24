@@ -1303,6 +1303,10 @@ async def auto_filter(client, msg, spoll=False):
                         await asyncio.sleep(600)
                         await hehe.delete()
                         await message.delete()
+                        fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                        await asyncio.sleep(100)
+                        await fcu.delete()
+                        await message.delete()
                 except KeyError:
                     grpid = await active_connection(str(message.from_user.id))
                     await save_group_settings(grpid, 'auto_delete', True)
@@ -1310,7 +1314,11 @@ async def auto_filter(client, msg, spoll=False):
                     if settings['auto_delete']:
                         await asyncio.sleep(600)
                         await hehe.delete()
-                        await message.delete()                       
+                        await message.delete()
+                        fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                        await asyncio.sleep(100)
+                        await fcu.delete()
+                        await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             if message.chat.id == SUPPORT_CHAT_ID:
                 await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>")
@@ -1322,7 +1330,11 @@ async def auto_filter(client, msg, spoll=False):
                     if settings['auto_delete']:
                         await asyncio.sleep(600)
                         await hmm.delete()
-                        await message.delete()                 
+                        await message.delete()
+                        fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                        await asyncio.sleep(100)
+                        await fcu.delete()
+                        await message.delete()
                 except KeyError:
                     grpid = await active_connection(str(message.from_user.id))
                     await save_group_settings(grpid, 'auto_delete', True)
@@ -1330,6 +1342,10 @@ async def auto_filter(client, msg, spoll=False):
                     if settings['auto_delete']:
                         await asyncio.sleep(600)
                         await hmm.delete()
+                        await message.delete()
+                        fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                        await asyncio.sleep(100)
+                        await fcu.delete()
                         await message.delete()
         except Exception as e:
             if message.chat.id == SUPPORT_CHAT_ID:
@@ -1342,6 +1358,10 @@ async def auto_filter(client, msg, spoll=False):
                         await asyncio.sleep(600)
                         await fek.delete()
                         await message.delete()
+                        fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                        await asyncio.sleep(100)
+                        await fcu.delete()
+                        await message.delete()
                 except KeyError:
                     grpid = await active_connection(str(message.from_user.id))
                     await save_group_settings(grpid, 'auto_delete', True)
@@ -1349,6 +1369,10 @@ async def auto_filter(client, msg, spoll=False):
                     if settings['auto_delete']:
                         await asyncio.sleep(600)
                         await fek.delete()                                         
+                        await message.delete()
+                        fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                        await asyncio.sleep(100)
+                        await fcu.delete()
                         await message.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
@@ -1367,6 +1391,10 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
                     await fuk.delete()                             
+                    await message.delete()
+                    fcu = await message.reply(f"<b>Hey {message.from_user.mention} \n\n𝑌𝑜𝑢𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐻𝑎𝑠 𝐵𝑒𝑒𝑛 𝐷𝑒𝑙𝑒𝑡𝑒𝑑👍🏻 \n(𝐷𝑢𝑒 𝑇𝑜 𝐴𝑣𝑜𝑖𝑑 𝐶𝑜𝑝𝑦𝑟𝑖𝑔ℎ𝑡𝑠 𝐼𝑠𝑠𝑢𝑒😌)\n\n𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐴𝑔𝑎𝑖𝑛 𝐹𝑜𝑟 𝑇ℎ𝑎𝑡 𝐹𝑖𝑙𝑒𝑠 ❤️</b>")
+                    await asyncio.sleep(100)
+                    await fcu.delete()
                     await message.delete()
     
     if spoll:
