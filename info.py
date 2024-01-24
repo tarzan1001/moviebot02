@@ -99,6 +99,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
+TIME = int(environ.get('TIME', "5"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/ARAKAL_THERAVAD_MOVIES")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/Grupo_filles")
