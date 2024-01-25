@@ -5,7 +5,7 @@
   <img src="https://telegra.ph/file/f699931c9eb259f551dfe.jpg" alt="ARAKAL THERAVAD MOVIES Bots">
 </p>
 <h1 align="center">
-  <b>Elsa</b>
+  <b>ARAKAL THERAVAD MOVIES BotS</b>
 </h1>
 
 <p align="center">
