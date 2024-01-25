@@ -67,13 +67,13 @@
 ## Credits
 <details>
 
- Thanks To [Mahesh](https://github.com/Mahesh0253/Media-Search-bot) MediaSearch
+ Thanks To [AUTO FILTER V1](https://t.me/annuV2_bot) ARAKAL THERAVAD MOVIES BotS
 
- Thanks To [Subinps](https://github.com/subinps/Media-Search-bot) AutoFilter & Base repo
+ Thanks To [AUTO FILTER V2](https://t.me/ARAKAL_THERAVAD_MOVIES_V2_bot) ARAKAL THERAVAD MOVIES BotS
  
- Thanks To [Joelkb](https://github.com/Joelkb) Collaborator [Add Redirect feature,Error fixed, Add new features]
+ Thanks To [AUTO FILTER V3](https://t.me/ARAKAL_THERAVAD_MOVIES_V3_bot) ARAKAL THERAVAD MOVIES BotS
 
- Thanks To [Devil-Botz](https://github.com/Devil-Botz) Owner,Add more features 
+ Thanks To [Auto Filter v4](https://t.me/ARAKAL_THERAVAD_MOVIES_V4_bot) ARAKAL THERAVAD MOVIES BotS
 
 
 </details>
