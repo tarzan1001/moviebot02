@@ -25,12 +25,12 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "Telegram_files",
+            "value": "12618934",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "Telegram_files",
+            "value": "49aacd0bc2f8924add29fb02e20c8a16",
             "required": true
         },
         "CHANNELS": {
@@ -39,7 +39,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "Telegram_files",
+            "value": "1297128957",
             "required": true
         },
         "PICS": {
@@ -49,7 +49,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "Telegram_files",
+            "value": "-1002010307613",
             "required": true
         },
         "AUTH_USERS": {
@@ -62,12 +62,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": "Telegram_files",
+            "value": "mongodb+srv://Autofilterv3:Autofilterv3@cluster0.y4ftawc.mongodb.net/",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": "Telegram_files",
+            "value": "Autofilterv3",
             "required": true
         },
         "COLLECTION_NAME": {
