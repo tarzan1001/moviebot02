@@ -1,7 +1,7 @@
 {
     "name": "Elsa Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/d9f242d81ef69cc8a1ec5.jpg",
+    "logo": "https://telegra.ph/file/87cce42dc5f9b21fb6765.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -41,6 +41,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/file/87cce42dc5f9b21fb6765.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
