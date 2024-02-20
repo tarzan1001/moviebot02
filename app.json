@@ -25,10 +25,12 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "Telegram_files",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "Telegram_files",
             "required": true
         },
         "CHANNELS": {
@@ -37,6 +39,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "Telegram_files",
             "required": true
         },
         "PICS": {
@@ -46,6 +49,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "Telegram_files",
             "required": true
         },
         "AUTH_USERS": {
@@ -58,10 +62,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "Telegram_files",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "Telegram_files",
             "required": true
         },
         "COLLECTION_NAME": {
@@ -71,11 +77,11 @@
         },
         "FILE_FORWARD": {
             "description": "File REDIRECT TO Channel , give Channel link for redirect file eg:https://t.me/abcdefgkkjajjm.",
-            "required": true
+            "required": false
         },
         "DELETE_CHANNELS": {
              "description": "Delete Multiple files from db, channel id -100xxxxxxxx.",
-             "required": true
+             "required": false
         }
     },
     "addons": [],
