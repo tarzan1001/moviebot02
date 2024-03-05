@@ -35,7 +35,15 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 FILTER_MODE = {}
+unwanted_words = ['pm', 'dm', 'pm me', 'hi', 'hlo', 'message']
 
+@Client.on_message(filters.group)
+async def delete_message(client, message):
+    for word in unwanted_words:
+        if word in message.text.lower():
+            await message.delete()
+            break
+            
 @Client.on_message(filters.command('autofilter') & filters.user(ADMINS))
 async def fil_mod(client, message): 
       mode_on = ["yes", "on", "true"]
