@@ -116,7 +116,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
          text=f"<b>ഇവിടെ ചോദിച്ചാൽ സിനിമ കിട്ടില്ല ഗ്രൂപ്പിൽ മാത്രം സിനിമ ചോദിക്കുക..!!\n\nGROUP OR BOT ANY PROMBLEM OR BUGS CONTACT GROUP ADMIN = @ARAKAL_THERAVAD_MOVIES_02_bot!!!</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/ARAKAL_THERAVAD_MOVIES")]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+FPt__pYntKFmODg1")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
