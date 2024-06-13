@@ -12,6 +12,7 @@ requests
 aiohttp==3.7.4
 datetime
 pytz
+aiofiles
 aiohttp
 python-math
 Pillow
