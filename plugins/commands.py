@@ -18,8 +18,11 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
+REACTIONS = ["🔥", "❤️", "😍", "⚡"]
+
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
+    await message.react(emoji=random.choice(REACTIONS))
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
