@@ -8,9 +8,6 @@
   <b>ARAKAL THERAVAD MOVIES BotS</b>
 </h1>
 
-
-</details>
-
 ## Deploy
 You can deploy this bot anywhere.
 
@@ -66,7 +63,8 @@ python3 bot.py
 * /info - get user info
 * /id - get tg ids.* /imdb - fetch info from imdb.
 * /users - to get list of my users and ids.
-* /chats - to get list of the my chats and ids* /broadcast - to broadcast a message to all Elsa users
+* /chats - to get list of the my chats and ids
+* /broadcast - to broadcast a message to all Elsa users
 * /gfilter - group filter
 * /grp_broadcast - broadcast to all group
 * /song - get song
