@@ -114,8 +114,7 @@ class Database:
             'file_secure': PROTECT_CONTENT,           
             'spell_check': SPELL_CHECK_REPLY,
             'welcome': MELCOW_NEW_USERS,
-            'auto_delete': AUTO_DELETE,
-            'template': IMDB_TEMPLATE,
+            'auto_delete': AUTO_DELETE,           
             'shortlink': SHORTLINK_URL,
             'shortlink_api': SHORTLINK_API,
             'is_shortlink': IS_SHORTLINK
