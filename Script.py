@@ -9,16 +9,7 @@ class script(object):
 
 <b>📌 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 : @OTT_ARAKAL_THERAVAD_MOVIESS</b>
 
-<b>🍂 𝑶𝒘𝒏𝒆𝒓 : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
-    
-    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
-    
-<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ARAKAL THERAVAD MOVIES</b>
-<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @ARAKAL_THERAVAD_MOVIES_02_bot
-• Usᴇʀ ɪᴅ :</b> <code>1297128957</code>
-    
-<b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
-    """
+<b>🍂 𝑶𝒘𝒏𝒆𝒓 : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""        
 
     HELP_TXT = """<b>Hᴇʏ {} 𝖨𝖺𝗆 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
     
@@ -26,7 +17,7 @@ class script(object):
     
 𝖢𝗁𝖾𝖼𝗄 𝖡𝖾𝗅𝗈𝗐 𝖧𝖾𝗅𝗉 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌🤍</b>"""
 
-    ABOUT_TXT = """<b>🤖 𝑴𝒚 𝑵𝒂𝒎𝒆 : {}
+    ABOUT_TXT = """<b>🤖 𝑴𝒚 𝑵𝒂𝒎𝒆 : <a href=https://t.me/{}>{}</a>
     
 📝 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆 : <a href='https://t.me/+Ou3rqTttBbJmOTA1'>𝑷𝒚𝒕𝒉𝒐𝒏</a>
 
