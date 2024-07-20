@@ -119,6 +119,7 @@ async def pm_text(bot, message):
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
     ) 
+    
 except Exception as e:
     print(e)  # print the error message
     await query.answer(f"☣something went wrong sweetheart\n\n{e}", show_alert=True)
