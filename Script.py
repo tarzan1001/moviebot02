@@ -5,7 +5,7 @@ class script(object):
 
 <b>I'ᴍ <a href=https://t.me/{}>{}</a> 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑪𝒂𝒍𝒍 𝑴𝒆 𝑨𝒔 𝑮𝒍𝒐𝒃𝒂𝒍 𝑭𝒊𝒍𝒕𝒆𝒓𝒔 𝑩𝒐𝒕 𝒗𝟓 🫶</b>
 
-<b>𝑬𝒙𝒄𝒍𝒖𝒔𝒊𝒗𝒆𝒍𝒚 𝑴𝒂𝒅𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕 𝑭𝒐𝒓 : @ARAKAL_THERAVAD_GROUP_01..!! 💫</b>
+<b>𝑬𝒙𝒄𝒍𝒖𝒔𝒊𝒗𝒆𝒍𝒚 𝑴𝒂𝒅𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕 𝑭𝒐𝒓 @ARAKAL_THERAVAD_GROUP_01..!! 💫</b>
 
 <b>📌 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 : @OTT_ARAKAL_THERAVAD_MOVIESS</b>
 
