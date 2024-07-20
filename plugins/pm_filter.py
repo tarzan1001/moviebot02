@@ -74,13 +74,7 @@ async def give_filter(client,message):
                 except Exception as e:
                     print(e)
                 break 
-
-    else:
-        if FILTER_MODE.get(str(message.chat.id)) == "False":
-            return
-        else:
-            await auto_filter(client, message)
-            
+                
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
     content = message.text
