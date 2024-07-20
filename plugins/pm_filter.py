@@ -119,16 +119,7 @@ async def pm_text(bot, message):
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
     )
-    
-    elif query.data == "reqinfo":
-        await query.answer(text=script.REQINFO, show_alert=True)
-
-    elif query.data == "select":
-        await query.answer(text=script.SELECT, show_alert=True)
-
-    elif query.data == "sinfo":
-        await query.answer(text=script.SINFO, show_alert=True)
-
+        
     elif query.data == "mfna":
         await query.answer("𝑴𝒂𝒏𝒖𝒂𝒍 𝑭𝒊𝒍𝒕𝒆𝒓 𝒊𝒔 𝑪𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 𝑫𝒊𝒔𝒂𝒃𝒍𝒆𝒅..!!", show_alert=True)
 
