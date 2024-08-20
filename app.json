@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/RolexPc/AUTO-FILTER-V3",
-    "repository": "https://github.com/RolexPc/AUTO-FILTER-V3",
+    "website": "https://github.com/tarzan1001/moviebot02",
+    "repository": "https://github.com/tarzan1001/moviebot02",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
