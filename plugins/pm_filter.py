@@ -131,20 +131,11 @@ async def advantage_spoll_choker(bot, query):
     
     elif query.data == "start":  
         buttons = [[
-            InlineKeyboardButton("👥 𝐆𝐑𝐎𝐔𝐏 - 𝟏", url=f"https://t.me/+FPt__pYntKFmODg1"),
-            InlineKeyboardButton("𝐆𝐑𝐎𝐔𝐏 - 𝟐 👥", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_02")
+            InlineKeyboardButton("👥 𝐆𝐑𝐎𝐔𝐏 - 𝟏", url=f"https://t.me/+etuDM1guIOk1ZWFl")            
             ],[
-            InlineKeyboardButton("👥 𝐆𝐑𝐎𝐔𝐏 - 𝟑", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_03"),
-            InlineKeyboardButton("𝐆𝐑𝐎𝐔𝐏 - 𝟒 👥", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_04")
+            InlineKeyboardButton("🖥 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐓𝐄𝐒 🖥", url="https://t.me/+WarnzYSqwN43ZmY1")        
             ],[
-            InlineKeyboardButton("👥 𝐆𝐑𝐎𝐔𝐏 - 𝟓", url=f"https://t.me/+7CetBQ1fjRU0NTU1"),
-            InlineKeyboardButton("𝐆𝐑𝐎𝐔𝐏 - 𝟔 👥", url=f"https://t.me/+1hNd66hCOJM1MTVl")
-            ],[
-            InlineKeyboardButton("🖥 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐓𝐄𝐒 🖥", url="https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS")
-            ],[
-            InlineKeyboardButton("🖥 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐈𝐍𝐒𝐓𝐆𝐑𝐀𝐌 🖥", url="https://www.instagram.com/new_ott__updates?igsh=MTMxcmhwamF4eGp6eg==")
-            ],[
-            InlineKeyboardButton("⭕️ 𝐆𝐄𝐓 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕️", url="https://t.me/ARAKAL_THERAVAD_GROUP_LINKS")
+            InlineKeyboardButton("⭕️ 𝐆𝐄𝐓 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕️", url="https://t.me/+zyn6Ieosz5o4OTVl")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
