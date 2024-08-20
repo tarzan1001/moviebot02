@@ -30,7 +30,7 @@ You can deploy this bot anywhere.
 <details><summary> Deploy To Okteto </summary>
 <br>
 <p>
-<a href="https://cloud.okteto.com/deploy?repository=https://github.com/RolexPc/AUTO-FILTER-V3&branch=main">
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/tarzan1001/moviebot02&branch=main">
   <img src="https://okteto.com/develop-okteto.svg" alt="Develop on Okteto">
 </a>
 </p>
@@ -38,7 +38,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/RolexPc/AUTO-FILTER-V3
+git clone  
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
